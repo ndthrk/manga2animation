@@ -3,17 +3,20 @@
 Công cụ chuyển trang truyện thành video trình chiếu có hội thoại, âm thanh và phụ đề.
 Giao diện biên tập giúp kiểm soát từng bước, từ nhận diện panel đến sắp xếp timeline và xuất video.
 
+
 ![Giao diện Manga2Animation](examples/docs/editor-services.png)
 
 ## Tính năng
 
-- **Phân tích trang truyện:** upscale bằng Real-ESRGAN, tách panel, nhận diện nhân vật và liên kết người nói bằng Magi v2; hỗ trợ thứ tự đọc Nhật/Việt.
-- **OCR nhiều engine:** Tesseract, PaddleOCR, Indra và Magi; chạy hàng loạt hoặc đọc lại từng panel.
-- **Biên tập trực quan:** chỉnh vùng cắt, bubble, hội thoại, người nói, batch và thời lượng; kéo thả để sắp xếp timeline.
-- **Dịch đa ngôn ngữ:** Googletrans, Ollama hoặc API tương thích OpenAI; lưu và chỉnh sửa nhiều bản dịch.
-- **Giọng nói nhân vật:** clone giọng bằng OmniVoice, tạo âm thanh từ lời thoại gốc hoặc bản dịch.
-- **Xuất video MP4:** tùy chỉnh độ phân giải, FPS, âm thanh và phụ đề theo màu nhân vật.
-- **Quản lý project:** tự lưu chỉnh sửa, theo dõi tác vụ và bổ sung trang mà không xử lý lại các trang còn hợp lệ.
+- [x] **Phân tích trang truyện:** upscale bằng Real-ESRGAN, tách panel, nhận diện nhân vật và liên kết người nói bằng Magi v2; hỗ trợ thứ tự đọc Nhật/Việt.
+- [x] **OCR nhiều engine:** Tesseract, PaddleOCR, Indra và Magi; chạy hàng loạt hoặc đọc lại từng panel.
+- [x] **Biên tập trực quan:** chỉnh vùng cắt, bubble, hội thoại, người nói, batch và thời lượng; kéo thả để sắp xếp timeline.
+- [x] **Dịch đa ngôn ngữ:** Googletrans, Ollama hoặc API tương thích OpenAI; lưu và chỉnh sửa nhiều bản dịch.
+- [x] **Giọng nói nhân vật:** clone giọng bằng OmniVoice, tạo âm thanh từ lời thoại gốc hoặc bản dịch.
+- [x] **Xuất video MP4:** tùy chỉnh độ phân giải, FPS, âm thanh và phụ đề theo màu nhân vật.
+- [x] **Quản lý project:** tự lưu chỉnh sửa, theo dõi tác vụ và bổ sung trang mà không xử lý lại các trang còn hợp lệ.
+- [ ] **Tạo video bằng AI:** tạo chuyển động từ panel theo batch, giữ nhất quán nhân vật và ghép thành video.
+- [ ] **Biên tập âm thanh trên timeline:** bổ sung track phía dưới để kéo thả, cắt ghép và căn thời gian lời thoại, nhạc nền, hiệu ứng.
 
 ## Video demo
 
