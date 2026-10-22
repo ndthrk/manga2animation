@@ -20,7 +20,7 @@ Giao diện biên tập giúp kiểm soát từng bước, từ nhận diện pa
 
 ## Video demo
 
-[▶ Xem video kết quả](project_example/output/video/slideshow.mp4)
+https://github.com/user-attachments/assets/c0a5efcc-9859-4744-b4cc-bbeec3f3cc26
 
 ## Bắt đầu
 
