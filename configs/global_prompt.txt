@@ -1,0 +1,3 @@
+Animate the attached manga panels in the supplied story order.
+Preserve character appearance, clothing and art style across the sequence.
+Do not invent dialogue. Speakers have not been identified.

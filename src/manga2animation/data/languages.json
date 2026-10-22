@@ -1,0 +1,318 @@
+[
+  {
+    "code": "vi",
+    "name": "Tiếng Việt",
+    "flag": "vn",
+    "aliases": [
+      "vie"
+    ],
+    "audio_code": "vi",
+    "ocr_codes": {
+      "tesseract": "vie",
+      "paddleocr": "vi"
+    },
+    "country_name": "Việt Nam"
+  },
+  {
+    "code": "ja",
+    "name": "Tiếng Nhật",
+    "flag": "jp",
+    "aliases": [
+      "jpn",
+      "jpn_vert",
+      "japan"
+    ],
+    "audio_code": "ja",
+    "ocr_codes": {
+      "tesseract": "jpn",
+      "paddleocr": "japan"
+    },
+    "country_name": "Nhật Bản"
+  },
+  {
+    "code": "en",
+    "name": "Tiếng Anh",
+    "flag": "gb",
+    "aliases": [
+      "eng"
+    ],
+    "audio_code": "en",
+    "ocr_codes": {
+      "tesseract": "eng",
+      "paddleocr": "en"
+    },
+    "country_name": "Vương quốc Anh"
+  },
+  {
+    "code": "zh-cn",
+    "name": "Tiếng Trung giản thể",
+    "flag": "cn",
+    "aliases": [
+      "zh",
+      "ch",
+      "cmn"
+    ],
+    "audio_code": "zh",
+    "ocr_codes": {
+      "tesseract": "chi_sim",
+      "paddleocr": "ch"
+    },
+    "country_name": "Trung Quốc"
+  },
+  {
+    "code": "zh-tw",
+    "name": "Tiếng Trung phồn thể",
+    "flag": "tw",
+    "aliases": [
+      "chinese_cht"
+    ],
+    "audio_code": "zh",
+    "ocr_codes": {
+      "tesseract": "chi_tra",
+      "paddleocr": "chinese_cht"
+    },
+    "country_name": "Đài Loan"
+  },
+  {
+    "code": "ko",
+    "name": "Tiếng Hàn",
+    "flag": "kr",
+    "aliases": [
+      "kor",
+      "korean"
+    ],
+    "audio_code": "ko",
+    "ocr_codes": {
+      "tesseract": "kor",
+      "paddleocr": "korean"
+    },
+    "country_name": "Hàn Quốc"
+  },
+  {
+    "code": "fr",
+    "name": "Tiếng Pháp",
+    "flag": "fr",
+    "aliases": [
+      "fra",
+      "french"
+    ],
+    "audio_code": "fr",
+    "ocr_codes": {
+      "tesseract": "fra",
+      "paddleocr": "fr"
+    },
+    "country_name": "Pháp"
+  },
+  {
+    "code": "de",
+    "name": "Tiếng Đức",
+    "flag": "de",
+    "aliases": [
+      "deu",
+      "german"
+    ],
+    "audio_code": "de",
+    "ocr_codes": {
+      "tesseract": "deu",
+      "paddleocr": "de"
+    },
+    "country_name": "Đức"
+  },
+  {
+    "code": "es",
+    "name": "Tiếng Tây Ban Nha",
+    "flag": "es",
+    "aliases": [
+      "spa"
+    ],
+    "audio_code": "es",
+    "ocr_codes": {
+      "tesseract": "spa",
+      "paddleocr": "es"
+    },
+    "country_name": "Tây Ban Nha"
+  },
+  {
+    "code": "it",
+    "name": "Tiếng Ý",
+    "flag": "it",
+    "aliases": [
+      "ita"
+    ],
+    "audio_code": "it",
+    "ocr_codes": {
+      "tesseract": "ita",
+      "paddleocr": "it"
+    },
+    "country_name": "Ý"
+  },
+  {
+    "code": "pt",
+    "name": "Tiếng Bồ Đào Nha",
+    "flag": "pt",
+    "aliases": [
+      "por"
+    ],
+    "audio_code": "pt",
+    "ocr_codes": {
+      "tesseract": "por",
+      "paddleocr": "pt"
+    },
+    "country_name": "Bồ Đào Nha"
+  },
+  {
+    "code": "ru",
+    "name": "Tiếng Nga",
+    "flag": "ru",
+    "aliases": [
+      "rus"
+    ],
+    "audio_code": "ru",
+    "ocr_codes": {
+      "tesseract": "rus",
+      "paddleocr": "ru"
+    },
+    "country_name": "Nga"
+  },
+  {
+    "code": "th",
+    "name": "Tiếng Thái",
+    "flag": "th",
+    "aliases": [
+      "tha"
+    ],
+    "audio_code": "th",
+    "ocr_codes": {
+      "tesseract": "tha",
+      "paddleocr": "th"
+    },
+    "country_name": "Thái Lan"
+  },
+  {
+    "code": "id",
+    "name": "Tiếng Indonesia",
+    "flag": "id",
+    "aliases": [
+      "ind"
+    ],
+    "audio_code": "id",
+    "ocr_codes": {
+      "tesseract": "ind",
+      "paddleocr": "id"
+    },
+    "country_name": "Indonesia"
+  },
+  {
+    "code": "ms",
+    "name": "Tiếng Mã Lai",
+    "flag": "my",
+    "aliases": [
+      "msa"
+    ],
+    "audio_code": "ms",
+    "ocr_codes": {
+      "tesseract": "msa",
+      "paddleocr": "ms"
+    },
+    "country_name": "Malaysia"
+  },
+  {
+    "code": "hi",
+    "name": "Tiếng Hindi",
+    "flag": "in",
+    "aliases": [
+      "hin"
+    ],
+    "audio_code": "hi",
+    "ocr_codes": {
+      "tesseract": "hin",
+      "paddleocr": "hi"
+    },
+    "country_name": "Ấn Độ"
+  },
+  {
+    "code": "ar",
+    "name": "Tiếng Ả Rập",
+    "flag": "sa",
+    "aliases": [
+      "ara"
+    ],
+    "audio_code": "arb",
+    "ocr_codes": {
+      "tesseract": "ara",
+      "paddleocr": "ar"
+    },
+    "country_name": "Ả Rập Xê Út"
+  },
+  {
+    "code": "nl",
+    "name": "Tiếng Hà Lan",
+    "flag": "nl",
+    "aliases": [
+      "nld"
+    ],
+    "audio_code": "nl",
+    "ocr_codes": {
+      "tesseract": "nld",
+      "paddleocr": "nl"
+    },
+    "country_name": "Hà Lan"
+  },
+  {
+    "code": "pl",
+    "name": "Tiếng Ba Lan",
+    "flag": "pl",
+    "aliases": [
+      "pol"
+    ],
+    "audio_code": "pl",
+    "ocr_codes": {
+      "tesseract": "pol",
+      "paddleocr": "pl"
+    },
+    "country_name": "Ba Lan"
+  },
+  {
+    "code": "tr",
+    "name": "Tiếng Thổ Nhĩ Kỳ",
+    "flag": "tr",
+    "aliases": [
+      "tur"
+    ],
+    "audio_code": "tr",
+    "ocr_codes": {
+      "tesseract": "tur",
+      "paddleocr": "tr"
+    },
+    "country_name": "Thổ Nhĩ Kỳ"
+  },
+  {
+    "code": "uk",
+    "name": "Tiếng Ukraina",
+    "flag": "ua",
+    "aliases": [
+      "ukr"
+    ],
+    "audio_code": "uk",
+    "ocr_codes": {
+      "tesseract": "ukr",
+      "paddleocr": "uk"
+    },
+    "country_name": "Ukraina"
+  },
+  {
+    "code": "fil",
+    "name": "Tiếng Filipino",
+    "flag": "ph",
+    "aliases": [
+      "tl",
+      "tgl"
+    ],
+    "audio_code": "fil",
+    "ocr_codes": {
+      "tesseract": "tgl",
+      "paddleocr": "tl"
+    },
+    "country_name": "Philippines"
+  }
+]

@@ -1,0 +1,13 @@
+import {useEffect,useState} from 'react';
+import {X,ListTodo} from 'lucide-react';
+import {api} from './api';
+import type {Task} from './types';
+export type Job=Task&{kind:string;project_name:string;stage?:string;status_path:string};
+const names:Record<string,string>={extract:'Trích xuất',ocr:'OCR panel',video:'Xuất video',translate:'Dịch',audio:'Sinh âm thanh',clone:'Chuẩn bị giọng',preview:'Nghe thử',llm_pull:'Tải model'};
+export function JobsDialog({close,apply,open}:{close:()=>void;apply:(job:Job)=>Promise<void>;open:(job:Job)=>Promise<void>}){
+  const [jobs,setJobs]=useState<Job[]>([]),[error,setError]=useState(''),[filter,setFilter]=useState('active');
+  const refresh=()=>api<Job[]>('/jobs').then(setJobs).catch(e=>setError(String(e)));
+  useEffect(()=>{refresh();const timer=setInterval(refresh,1500);return()=>clearInterval(timer);},[]);
+  const active=(j:Job)=>['queued','running','cancelling'].includes(j.state);
+  return <div className="modal-backdrop"><section className="modal jobs-dialog" role="dialog" aria-label="Quản lý tác vụ"><div className="section-title"><h2><ListTodo size={20}/> Tác vụ</h2><button title="Đóng tác vụ" onClick={close}><X size={18}/></button></div><p className="hint">Có thể thêm nhiều tác vụ. Các model GPU chạy lần lượt để tránh đầy VRAM; bạn vẫn tiếp tục biên tập.</p><nav className="service-tabs"><button className={filter==='active'?'active':''} onClick={()=>setFilter('active')}>Đang xử lý / chờ ({jobs.filter(active).length})</button><button className={filter==='all'?'active':''} onClick={()=>setFilter('all')}>Tất cả</button></nav>{error&&<p role="alert">{error}</p>}<div className="jobs-list">{jobs.filter(j=>filter==='all'||active(j)).map(j=><article className="job-card" key={j.kind+j.id}><div><strong>{names[j.operation]||j.operation}</strong><small>{j.project_name} · {j.id.slice(0,8)}</small></div><span>{j.state} {j.stage&&`· ${j.stage}`} · {j.completed}/{j.total}</span><progress max={Math.max(1,j.total||0)} value={j.completed||0}/>{j.error&&<p className="inline-error">{j.error}</p>}{j.errors?.length?<p>{j.errors.length} lỗi · {j.errors[0].error}</p>:null}<div className="field-pair">{active(j)&&j.kind!=='ocr'&&<button onClick={()=>api('/jobs/cancel','POST',j).then(refresh).catch(e=>setError(String(e)))}>Dừng</button>}{j.kind==='task'&&j.state==='completed'&&!j.applied_at&&<button onClick={()=>apply(j).then(refresh).catch(e=>setError(String(e)))}>Áp dụng kết quả</button>}{j.run_id&&<button onClick={()=>open(j).then(close).catch(e=>setError(String(e)))}>Mở lần trích xuất</button>}</div></article>)}{!jobs.some(j=>filter==='all'||active(j))&&<p className="mini-empty">Chưa có tác vụ trong mục này.</p>}</div></section></div>;
+}

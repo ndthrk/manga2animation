@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manga2animation"
+version = "0.1.0"
+description = "Manga preprocessing, OCR and batch preparation for video generation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["Pillow>=10", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+local = ["ultralytics>=8.4.183,<9", "pytesseract>=0.3.13,<0.4"]
+enhancement = ["torch>=2.7", "numpy>=1.26"]
+
+[project.scripts]
+manga2animation = "manga2animation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+manga2animation = ["data/*.json"]
