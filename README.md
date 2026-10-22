@@ -16,7 +16,7 @@ nhận diện nhân vật/người nói, OCR và chỉnh sửa thành timeline c
 - Mỗi Extract có UUID, snapshot và trạng thái riêng. Project lưu trên filesystem, không cần database.
 - Mặc định **trích xuất bổ sung**: dùng lại trang còn hợp lệ, chỉ chạy model trên trang mới/thay đổi;
   giữ timeline/thoại/bản dịch/âm thanh đã review và nối panel mới vào cuối.
-- Một hàng đợi GPU, có khóa giữa CLI/web để tránh chạy nhiều model cùng lúc trên GPU 4 GB.
+- Một hàng đợi GPU, có khóa giữa CLI/web để tránh chạy nhiều model cùng lúc.
 - Bấm trang upload để sửa/vẽ panel và bubble, gán người nói rồi Extract áp dụng bố cục đó.
 - Thoại/bản dịch theo màu nhân vật, cấu hình riêng giọng Unknown.
 - MP4 trình chiếu theo timeline, chọn độ phân giải/FPS, âm thanh và phụ đề lời gốc/bản dịch; font, vị trí, căn lề và màu nhân vật tùy chỉnh.
@@ -206,11 +206,11 @@ Các kiểm thử bổ sung kiểm tra nhiều bản dịch theo ngôn ngữ, ch
 giữ thứ tự vùng cắt thủ công, chỉnh clip không sửa WAV gốc, danh sách tác vụ,
 kéo thanh chia cột, zoom trang và popup thông tin.
 
-## Giới hạn và Git
+## Giới hạn
 
 Panel chéo/lồng có chủ ý, hội thoại không có đuôi bubble hoặc nhân vật ngoài khung có thể gán sai.
 Magi OCR không được coi là phương án tối ưu cho tiếng Việt; nên so sánh các engine trên crop thực tế.
-GPU 4 GB chạy lần lượt giảm áp lực VRAM nhưng không đảm bảo mọi trang/engine đều vừa bộ nhớ;
+Xử lý lần lượt giảm áp lực VRAM nhưng không đảm bảo mọi trang/engine đều vừa bộ nhớ;
 có thể giảm tile hoặc chuyển thiết bị sang CPU. Tất cả trang hiện được giữ trong RAM khi đối chiếu nhân vật.
 Dừng Extract giữ artifact/trạng thái để kiểm tra và dừng giữa các lượt model; không ép ngắt kernel đang infer.
 Chưa tự resume. TTS worker có thể dừng riêng; Extract không tự gọi dịch hoặc TTS.

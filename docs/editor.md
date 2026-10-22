@@ -123,7 +123,7 @@ Cache SQLite ở `.cache/translations.sqlite3` tránh gửi lại cùng văn b�
 Nếu Google đổi/mất dấu phân cách, chỉ batch đó mới được dịch riêng từng câu để bảo toàn ranh giới.
 Gặp 429 thì không tách batch thành nhiều request để gửi tiếp.
 Khi gặp 429, các câu đã thành công được giữ; provider tạm ngừng gửi trong 60 giây.
-Máy hiện tại vẫn bị Google trả 429 khi kiểm tra thực tế. Retry/cache không bảo đảm gỡ giới hạn bên Google;
+Retry/cache không bảo đảm gỡ giới hạn bên Google;
 UI hiển thị lỗi rõ ràng và giữ nguyên thoại/bản dịch cũ. [Googletrans không bảo đảm dịch vụ ổn định](https://py-googletrans.readthedocs.io/en/latest/).
 
 ## Dịch bằng LLM
@@ -171,4 +171,4 @@ Kết quả phải có đúng ID từng câu; thiếu/nhầm ID sẽ báo lỗi 
 Trong tab Dịch bên phải có thể chọn provider/model riêng cho một panel.
 
 Kiểm thử tự động dùng endpoint giả để xác nhận giao thức HTTP, tải model, giữ ID và lưu dữ liệu.
-Không gọi API trả phí trong test. Máy hiện tại chưa có dịch vụ Ollama chạy; chưa đo chất lượng dịch bằng weight local.
+Không gọi API trả phí trong test.

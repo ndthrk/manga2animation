@@ -11,9 +11,7 @@ dist/
 .env
 output/
 data/*
-!data/README.md
 checkpoints/*
-!checkpoints/README.md
 lab/data/
 lab/output/
 lab/vendor/
@@ -26,6 +24,7 @@ frontend/test-results/
 frontend/playwright-report/
 lab/characters/
 lab/checkpoints/
+lab/
 vendor/
 .env.*
 !.env.example
