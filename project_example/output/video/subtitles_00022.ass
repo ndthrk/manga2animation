@@ -1,0 +1,15 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,32,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,0,0,0,0,100,100,0,0,1,2,1,2,35,35,35,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.89,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}1. Cầu lông bãi biển 2. Lừa Bạn Nhìn 3.
+Dialogue: 0,0:00:04.89,0:00:08.80,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Đập Cọc 4. Caro 5. Tìm Vỏ Sở
+Dialogue: 0,0:00:09.00,0:00:11.12,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}TAO THẮNG HẾT NĂM TRẬN RỒI.
+Dialogue: 0,0:00:11.32,0:00:13.84,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}TẤT CẢ ĐỀU ĐƯỢC TÍNH À?!

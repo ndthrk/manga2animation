@@ -1,0 +1,29 @@
+{
+  "id": "1ae8908fa90e4764b691f7a9fa58ee5d",
+  "panel_id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_6456e7387f484e8dab48e27cca0623e4",
+  "engine": "tesseract",
+  "options": {
+    "language": "eng"
+  },
+  "state": "completed",
+  "created_at": "2026-10-22T18:02:24.944328+00:00",
+  "pid": 12192,
+  "dialogues": [
+    {
+      "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_1",
+      "text": "LOOKS LIKE THE SUN'S ALREADY SETTING.",
+      "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+      "ocr": {
+        "content": "LOOKS LIKE THE SUN'S ALREADY SETTING."
+      }
+    },
+    {
+      "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_2",
+      "text": "OUR BEACH \\, BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED.",
+      "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+      "ocr": {
+        "content": "OUR BEACH \\, BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED."
+      }
+    }
+  ]
+}

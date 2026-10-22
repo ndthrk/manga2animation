@@ -1,0 +1,125 @@
+{
+  "id": "8e48263d275f468fb99d6e06cbe644e4",
+  "panel_id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_6456e7387f484e8dab48e27cca0623e4",
+  "engine": "paddleocr",
+  "options": {
+    "language": "en"
+  },
+  "state": "completed",
+  "created_at": "2026-10-22T18:02:49.363173+00:00",
+  "pid": 12192,
+  "dialogues": [
+    {
+      "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_1",
+      "text": "LOOKS LIKE THE SUN'S ALREADY SETTING.",
+      "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+      "ocr": {
+        "content": "LOOKS LIKE THE SUN'S ALREADY SETTING.",
+        "lines": [
+          {
+            "content": "LOOKS LIKE",
+            "confidence": 0.999677300453186,
+            "bbox_crop": [
+              16.0,
+              21.0,
+              197.0,
+              53.0
+            ]
+          },
+          {
+            "content": "THE SUN'S",
+            "confidence": 0.9840441942214966,
+            "bbox_crop": [
+              29.0,
+              53.0,
+              181.0,
+              89.0
+            ]
+          },
+          {
+            "content": "ALREADY",
+            "confidence": 0.9995375871658325,
+            "bbox_crop": [
+              39.0,
+              91.0,
+              174.0,
+              122.0
+            ]
+          },
+          {
+            "content": "SETTING.",
+            "confidence": 0.9997240900993347,
+            "bbox_crop": [
+              39.0,
+              126.0,
+              171.0,
+              157.0
+            ]
+          }
+        ],
+        "language": "en"
+      }
+    },
+    {
+      "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_2",
+      "text": "OUR BEACH BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED.",
+      "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+      "ocr": {
+        "content": "OUR BEACH BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED.",
+        "lines": [
+          {
+            "content": "OUR BEACH",
+            "confidence": 0.9884535670280457,
+            "bbox_crop": [
+              66.0,
+              13.0,
+              205.0,
+              39.0
+            ]
+          },
+          {
+            "content": "BADMINTON MATCH",
+            "confidence": 0.9995155334472656,
+            "bbox_crop": [
+              25.0,
+              43.0,
+              250.0,
+              68.0
+            ]
+          },
+          {
+            "content": "WAS SO INTENSE,",
+            "confidence": 0.9976329207420349,
+            "bbox_crop": [
+              27.0,
+              70.0,
+              244.0,
+              99.0
+            ]
+          },
+          {
+            "content": "WE BARELY",
+            "confidence": 0.9945070743560791,
+            "bbox_crop": [
+              65.0,
+              100.0,
+              208.0,
+              127.0
+            ]
+          },
+          {
+            "content": "NOTICED.",
+            "confidence": 0.9530413150787354,
+            "bbox_crop": [
+              78.0,
+              130.0,
+              195.0,
+              154.0
+            ]
+          }
+        ],
+        "language": "en"
+      }
+    }
+  ]
+}

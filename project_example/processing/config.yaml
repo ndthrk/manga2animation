@@ -1,0 +1,122 @@
+video:
+  width: 1280
+  height: 720
+  fps: 24
+  crf: 23
+  include_audio: true
+  extend_for_audio: true
+  background: '#111111'
+translation:
+  provider: googletrans
+  source: en
+  target: vi
+  batch_size: 16
+  timeout_seconds: 30
+  max_words_per_screen: 12
+  request_interval: 1
+  retries: 2
+  batch_requests: true
+  max_chars_per_request: 4000
+  ollama:
+    base_url: http://127.0.0.1:11434
+    model: qwen3:1.7b
+    temperature: 0.2
+    max_tokens: 2048
+    context_length: 4096
+    timeout_seconds: 120
+    system_prompt: ''
+  openai_compatible:
+    base_url: https://api.openai.com/v1
+    model: gpt-4.1-mini
+    temperature: 0.2
+    max_tokens: 2048
+    token_parameter: max_tokens
+    timeout_seconds: 120
+    system_prompt: ''
+    json_mode: false
+    send_temperature: true
+timing:
+  mode: text
+  min_seconds: 1
+  words_per_minute: 180
+  text_source: original
+  dialogue_gap: 0.2
+audio:
+  provider: omnivoice
+  text_source: original
+  batch_size: 1
+  language: jp
+  speed: 1
+  num_step: 32
+  guidance_scale: 2
+  position_temperature: 5
+  class_temperature: 0
+  denoise: true
+  preprocess_prompt: true
+  postprocess_output: true
+  omnivoice:
+    model: checkpoints/omnivoice
+    device: cuda:0
+    dtype: float16
+    python_executable: ''
+    python_path: vendor/omnivoice
+    asr_model: checkpoints/whisper-small
+    asr_device: cuda:0
+    keep_alive_seconds: 60
+    timeout_seconds: 1800
+input: ''
+output: output/poc
+direction: jp
+min_panel_area: 0.05
+nested_ratio: 0.25
+text_overlap: 0.5
+text_padding: 0.1
+batch_size: 3
+upscale:
+  model: checkpoints/realesrgan/realesr-animevideov3.pth
+  scale: 2
+  tile: 128
+  device: '0'
+magi:
+  model: checkpoints/magiv2
+  processor: checkpoints/trocr-processor
+  v3_model: checkpoints/magiv3
+  device: cuda:0
+  threads: 4
+  panel_detection_threshold: 0.6
+  text_detection_threshold: 0.25
+  character_detection_threshold: 0.3
+  tail_detection_threshold: 0.34
+  character_character_matching_threshold: 0.65
+  text_character_matching_threshold: 0.35
+  text_tail_matching_threshold: 0.3
+  text_classification_threshold: 0.5
+ocr:
+  enabled: true
+  engine: paddleocr
+  batch_size: 1
+  max_new_tokens: 96
+  tesseract:
+    command: null
+    language: vie
+    psm: 6
+  indra:
+    model: checkpoints/indra-ocr
+  paddleocr:
+    language: en
+    ocr_version: PP-OCRv5
+    device: cpu
+    detection_model_dir: ''
+    recognition_model_dir: ''
+characters:
+- id: chii
+  name: Chii
+  image: ''
+  gender: ''
+  color: '#b89cff'
+- id: taiki
+  name: Taiki
+  image: ''
+  gender: ''
+  color: '#6cd6cc'
+global_prompt: configs/global_prompt.txt

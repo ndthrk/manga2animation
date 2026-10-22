@@ -1,0 +1,146 @@
+{
+  "id": "9cfa259f005a4168a2b4128b707c1002",
+  "state": "completed",
+  "completed": 27,
+  "total": 27,
+  "created_at": "2026-10-22T18:51:43.909794+00:00",
+  "pid": 12192,
+  "video": "output/video/slideshow.mp4",
+  "duration": 138.16666666666666,
+  "panel_durations": [
+    {
+      "panel_id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_fcb5adeef94346b69bb739443a547760",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_6456e7387f484e8dab48e27cca0623e4",
+      "seconds": 10.916666666666666
+    },
+    {
+      "panel_id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_0",
+      "seconds": 5.5
+    },
+    {
+      "panel_id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_1",
+      "seconds": 3.0
+    },
+    {
+      "panel_id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_2",
+      "seconds": 9.666666666666666
+    },
+    {
+      "panel_id": "dec8c9233ddf42438fcfbc53ef0e24d3_panel_0",
+      "seconds": 18.25
+    },
+    {
+      "panel_id": "dec8c9233ddf42438fcfbc53ef0e24d3_panel_1",
+      "seconds": 2.9166666666666665
+    },
+    {
+      "panel_id": "dec8c9233ddf42438fcfbc53ef0e24d3_panel_2",
+      "seconds": 4.833333333333333
+    },
+    {
+      "panel_id": "dec8c9233ddf42438fcfbc53ef0e24d3_panel_3",
+      "seconds": 3.0833333333333335
+    },
+    {
+      "panel_id": "dec8c9233ddf42438fcfbc53ef0e24d3_panel_4",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "dec8c9233ddf42438fcfbc53ef0e24d3_panel_5",
+      "seconds": 9.083333333333334
+    },
+    {
+      "panel_id": "f1b1a2520a454a3d998f7608f5074827_panel_0",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "f1b1a2520a454a3d998f7608f5074827_panel_1",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "f1b1a2520a454a3d998f7608f5074827_panel_2",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "f1b1a2520a454a3d998f7608f5074827_panel_3",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "f1b1a2520a454a3d998f7608f5074827_panel_4",
+      "seconds": 5.916666666666667
+    },
+    {
+      "panel_id": "eb2503886b3548f0bb7bbd1745c4c8d1_panel_0",
+      "seconds": 8.083333333333334
+    },
+    {
+      "panel_id": "eb2503886b3548f0bb7bbd1745c4c8d1_panel_1",
+      "seconds": 5.5
+    },
+    {
+      "panel_id": "eb2503886b3548f0bb7bbd1745c4c8d1_panel_2",
+      "seconds": 9.083333333333334
+    },
+    {
+      "panel_id": "eb2503886b3548f0bb7bbd1745c4c8d1_panel_3",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "eb2503886b3548f0bb7bbd1745c4c8d1_panel_4",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "960eacfb711d43349b1b1b33cf615613_panel_0",
+      "seconds": 7.166666666666667
+    },
+    {
+      "panel_id": "960eacfb711d43349b1b1b33cf615613_panel_1",
+      "seconds": 14.916666666666666
+    },
+    {
+      "panel_id": "960eacfb711d43349b1b1b33cf615613_panel_2",
+      "seconds": 5.416666666666667
+    },
+    {
+      "panel_id": "960eacfb711d43349b1b1b33cf615613_panel_3",
+      "seconds": 3.5833333333333335
+    },
+    {
+      "panel_id": "960eacfb711d43349b1b1b33cf615613_panel_4",
+      "seconds": 1.0
+    },
+    {
+      "panel_id": "960eacfb711d43349b1b1b33cf615613_panel_5",
+      "seconds": 2.25
+    }
+  ],
+  "missing_audio": [],
+  "subtitle_warnings": [],
+  "options": {
+    "width": 1280,
+    "height": 720,
+    "fps": 12,
+    "crf": 23,
+    "include_audio": true,
+    "extend_for_audio": true,
+    "background": "#f5f5f5",
+    "subtitles": {
+      "enabled": true,
+      "text_source": "translation",
+      "translation_language": "vi",
+      "max_words": 12,
+      "font": "Arial",
+      "font_size": 32,
+      "position": "bottom",
+      "alignment": "center",
+      "character_colors": true,
+      "color": "#ffffff",
+      "margin": 35
+    }
+  },
+  "subtitles": "output/video/subtitles.ass",
+  "updated_at": "2026-10-22T18:52:05.713375+00:00"
+}

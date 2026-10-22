@@ -1,0 +1,312 @@
+{
+  "id": "3c9c82e2d7094595bd87baded65c0c13",
+  "name": "Ao no ko",
+  "created_at": "2026-10-21T17:20:16.940414+00:00",
+  "pages": [
+    {
+      "id": "3d2fdc7f4b884ad0893be2abd2322cec",
+      "name": "1.webp",
+      "image": "input/sources/def290e27ef14e5ea6929d417eadcc45.png",
+      "layout": {
+        "panels": [
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_0",
+            "bbox": [
+              462,
+              612,
+              754,
+              1168
+            ]
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_1",
+            "bbox": [
+              0,
+              617.5,
+              473.5,
+              795
+            ]
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_2",
+            "bbox": [
+              0,
+              799,
+              510,
+              1167
+            ]
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_fcb5adeef94346b69bb739443a547760",
+            "bbox": [
+              0,
+              0,
+              762,
+              258
+            ]
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_panel_6456e7387f484e8dab48e27cca0623e4",
+            "bbox": [
+              0,
+              266,
+              754,
+              603
+            ]
+          }
+        ],
+        "texts": [
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_3",
+            "bbox": [
+              634.7631225585938,
+              653.8533935546875,
+              713.6575317382812,
+              732.4462280273438
+            ],
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_4",
+            "bbox": [
+              549.6737670898438,
+              994.6765747070312,
+              631.0850830078125,
+              1038.4901123046875
+            ],
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_6",
+            "bbox": [
+              34.68820571899414,
+              707.0554809570312,
+              150.0339813232422,
+              747.2183837890625
+            ],
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_7",
+            "bbox": [
+              357.2542419433594,
+              881.7493286132812,
+              479.2335510253906,
+              945.2979736328125
+            ],
+            "speaker_id": "unknown_speaker_3d2fdc7f4b884ad0893be2abd2322cec_7"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_8",
+            "bbox": [
+              185.54888916015625,
+              946.6488037109375,
+              282.57440185546875,
+              1030.898193359375
+            ],
+            "speaker_id": "unknown_speaker_3d2fdc7f4b884ad0893be2abd2322cec_8"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_9",
+            "bbox": [
+              17.56547737121582,
+              989.8787841796875,
+              156.69992065429688,
+              1093.376708984375
+            ],
+            "speaker_id": "unknown_speaker_3d2fdc7f4b884ad0893be2abd2322cec_9"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_0",
+            "bbox": [
+              8.744406700134277,
+              27.750717163085938,
+              635.9522705078125,
+              71.1938705444336
+            ],
+            "speaker_id": "unknown_speaker_3d2fdc7f4b884ad0893be2abd2322cec_0"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_1",
+            "bbox": [
+              352,
+              350,
+              446,
+              422
+            ],
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_2",
+            "bbox": [
+              333.0600280761719,
+              511.5977478027344,
+              447.61773681640625,
+              586.217529296875
+            ],
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115"
+          },
+          {
+            "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_5",
+            "bbox": [
+              26.15901756286621,
+              76.40023803710938,
+              61.418331146240234,
+              96.32015991210938
+            ],
+            "speaker_id": "unknown_speaker_3d2fdc7f4b884ad0893be2abd2322cec_5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dec8c9233ddf42438fcfbc53ef0e24d3",
+      "name": "2.webp",
+      "image": "input/sources/d5bdc22ad93f457ea6218962ae2cd38e.png"
+    },
+    {
+      "id": "f1b1a2520a454a3d998f7608f5074827",
+      "name": "3.webp",
+      "image": "input/sources/c2a4f4ceb09a498b9cdd6ed27c86b9c8.png",
+      "layout": {
+        "panels": [
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_panel_0",
+            "bbox": [
+              392.5,
+              0,
+              754,
+              324.5
+            ]
+          },
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_panel_1",
+            "bbox": [
+              0,
+              0.5,
+              387.5,
+              300.5
+            ]
+          },
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_panel_2",
+            "bbox": [
+              271,
+              307,
+              765,
+              569
+            ]
+          },
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_panel_3",
+            "bbox": [
+              2.5,
+              287,
+              264.5,
+              597
+            ]
+          },
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_panel_4",
+            "bbox": [
+              0,
+              650,
+              752,
+              1166
+            ]
+          }
+        ],
+        "texts": [
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_text_0",
+            "bbox": [
+              607.0682373046875,
+              724.0875854492188,
+              727.0750732421875,
+              827.63818359375
+            ],
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115"
+          },
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_text_2",
+            "bbox": [
+              508.5153503417969,
+              892.9926147460938,
+              653.1689453125,
+              931.5999755859375
+            ],
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115"
+          },
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_text_3",
+            "bbox": [
+              21.57990074157715,
+              896.0261840820312,
+              89.0310287475586,
+              930.4990234375
+            ],
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115"
+          },
+          {
+            "id": "f1b1a2520a454a3d998f7608f5074827_text_1",
+            "bbox": [
+              538.732666015625,
+              615.9242553710938,
+              603.0394897460938,
+              644.4808349609375
+            ],
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eb2503886b3548f0bb7bbd1745c4c8d1",
+      "name": "4.webp",
+      "image": "input/sources/423b54e8e53344a99dcf641910ba7540.png"
+    },
+    {
+      "id": "960eacfb711d43349b1b1b33cf615613",
+      "name": "5.webp",
+      "image": "input/sources/7ec948bf1bc14daf909939e0f5569f34.png"
+    }
+  ],
+  "characters": [
+    {
+      "id": "dfa88b7302144346acb4eb1cc193be39",
+      "name": "Chiharu",
+      "color": "#f980c7",
+      "gender": "female",
+      "image": "input/references/720a17bffc0948858c13889e86730c05.png",
+      "url": "",
+      "voice": {
+        "reference_audio": "input/voice_references/da6d3cafc58e4e6fbce4272f79978509.wav",
+        "reference_text": "あのね今日買い物に行こうと思ってたんだけどね 雨が降ってきちゃってでもお姉ちゃんが傘を貸してくれたんです やっぱり優しいなーって買い物終わったら何かお礼しないとなーって思ってて",
+        "reference_text_source": "whisper",
+        "preview": "processing/voices/dfa88b7302144346acb4eb1cc193be39/effeed412e6a4d77acb4e1ff5b853688/preview.wav",
+        "preview_text": "Xin chào, đây là giọng nói của tôi.",
+        "duration": 2.2,
+        "cloned_at": "2026-10-22T15:29:08.577306+00:00"
+      }
+    },
+    {
+      "id": "54804134a0ec4a5eb2f997cdecb0d115",
+      "name": "Taiki",
+      "color": "#66a1ff",
+      "gender": "male",
+      "image": "input/references/bf9f622d55e24e62a40eb61a20e55f8b.png",
+      "url": "Taki",
+      "voice": {
+        "reference_audio": "input/voice_references/d27bcc93108f40f9899c34ed3a58a97a.wav",
+        "reference_text": "ba các cộng đứng tuổi với vẻ ủy hề ngoại đang chăm chú đọc báo. Thế nhưng khi thấy vôn ca và ông già cùng tiến lại gần, niềm vui bỗng chốc hiện lên trên gương mặt ông khiến ông vội vàng đặt tờ báo sang một bên.",
+        "reference_text_source": "whisper",
+        "preview": "processing/voices/54804134a0ec4a5eb2f997cdecb0d115/879c1d4f94e143aea5cec1c3b38e38ae/preview.wav",
+        "preview_text": "Xin chào, đây là giọng nói của tôi.",
+        "duration": 2,
+        "cloned_at": "2026-10-22T01:38:35.926628+00:00"
+      }
+    }
+  ],
+  "global_prompt": "Animate the attached manga panels in the supplied story order.\nPreserve character appearance, clothing and art style across the sequence.\nDo not invent dialogue. Speakers have not been identified.\n",
+  "revision": 51
+}

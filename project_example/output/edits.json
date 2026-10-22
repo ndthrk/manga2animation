@@ -1,0 +1,3175 @@
+{
+  "schema_version": "1.0",
+  "revision": 103,
+  "order": [
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_fcb5adeef94346b69bb739443a547760",
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_6456e7387f484e8dab48e27cca0623e4",
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_0",
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_1",
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_2",
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_0",
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_1",
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_2",
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_3",
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_4",
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_5",
+    "f1b1a2520a454a3d998f7608f5074827_panel_0",
+    "f1b1a2520a454a3d998f7608f5074827_panel_1",
+    "f1b1a2520a454a3d998f7608f5074827_panel_2",
+    "f1b1a2520a454a3d998f7608f5074827_panel_3",
+    "f1b1a2520a454a3d998f7608f5074827_panel_4",
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_0",
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_1",
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_2",
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_3",
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_4",
+    "960eacfb711d43349b1b1b33cf615613_panel_0",
+    "960eacfb711d43349b1b1b33cf615613_panel_1",
+    "960eacfb711d43349b1b1b33cf615613_panel_2",
+    "960eacfb711d43349b1b1b33cf615613_panel_3",
+    "960eacfb711d43349b1b1b33cf615613_panel_4",
+    "960eacfb711d43349b1b1b33cf615613_panel_5"
+  ],
+  "batches": [
+    {
+      "id": "batch_0",
+      "color": "#6956b8",
+      "context": ""
+    },
+    {
+      "id": "batch_1",
+      "color": "#247e91",
+      "context": ""
+    },
+    {
+      "id": "batch_2",
+      "color": "#9a6239",
+      "context": ""
+    },
+    {
+      "id": "batch_3",
+      "color": "#8a4c78",
+      "context": ""
+    },
+    {
+      "id": "batch_4",
+      "color": "#48865d",
+      "context": ""
+    },
+    {
+      "id": "batch_5",
+      "color": "#626ab3",
+      "context": ""
+    },
+    {
+      "id": "batch_6",
+      "color": "#6956b8",
+      "context": ""
+    },
+    {
+      "id": "batch_7",
+      "color": "#247e91",
+      "context": ""
+    },
+    {
+      "id": "batch_8",
+      "color": "#9a6239",
+      "context": ""
+    }
+  ],
+  "panels": {
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_fcb5adeef94346b69bb739443a547760": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_0",
+      "dialogues": [],
+      "duration_source": "audio",
+      "audio_settings": {
+        "provider": "omnivoice",
+        "text_source": "translation",
+        "batch_size": 1,
+        "language": "ja",
+        "translation_language": "zh-cn",
+        "speed": 1,
+        "num_step": 16,
+        "guidance_scale": 2,
+        "position_temperature": 5,
+        "class_temperature": 0,
+        "denoise": true,
+        "preprocess_prompt": true,
+        "postprocess_output": true,
+        "omnivoice": {
+          "model": "checkpoints/omnivoice",
+          "device": "cuda:0",
+          "dtype": "float16",
+          "python_executable": "",
+          "python_path": "vendor/omnivoice",
+          "asr_model": "checkpoints/whisper-small",
+          "asr_device": "cuda:0",
+          "keep_alive_seconds": 60,
+          "timeout_seconds": 1800
+        }
+      }
+    },
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_6456e7387f484e8dab48e27cca0623e4": {
+      "hidden": false,
+      "duration": 10.88,
+      "prompt": "",
+      "batch_id": "batch_0",
+      "dialogues": [
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_1",
+          "text": "LOOKS LIKE THE SUN'S ALREADY SETTING.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Trông như mặt trời đã lặn rồi.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "LOOKS LIKE THE SUN'S ALREADY SETTING.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/17d00b582c4d4d43bc74bd25e1b02cb3.wav",
+            "input_text": "もう太陽が沈んでいるようです。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.48,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.822637+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "もう太陽が沈んでいるようです。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "LOOKS LIKE THE SUN'S ALREADY SETTING.",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "Trông như mặt trời đã lặn rồi.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "LOOKS LIKE THE SUN'S ALREADY SETTING.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_2",
+          "text": "OUR BEACH BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED.",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "Trận cầu lông bãi biển của chúng ta gay gắt quá, gần như không để ý.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "OUR BEACH BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/62b5d9a865404891b59380d56c0e2130.wav",
+            "input_text": "私たちのビーチバドミントンの試合はあまりにも激しかったので、私たちはほとんど気づきませんでした。",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 7.2,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.823855+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "私たちのビーチバドミントンの試合はあまりにも激しかったので、私たちはほとんど気づきませんでした。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "OUR BEACH BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED.",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "Trận cầu lông bãi biển của chúng ta gay gắt quá, gần như không để ý.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "OUR BEACH BADMINTON MATCH WAS SO INTENSE, WE BARELY NOTICED.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio",
+      "ocr_settings": {
+        "languages": {
+          "tesseract": "eng"
+        }
+      }
+    },
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_0": {
+      "hidden": false,
+      "duration": 5.42,
+      "prompt": "",
+      "batch_id": "batch_0",
+      "dialogues": [
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_3",
+          "text": "THE SKY WAS SO BLUE BEFORE.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Trước đây bầu trời xanh ngắt.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "THE SKY WAS SO BLUE BEFORE.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/40bd71cf593f4d7d8e54212a896167ff.wav",
+            "input_text": "前は空がとても青かったのに。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.44,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.823855+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "前は空がとても青かったのに。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "THE SKY WAS SO BLUE BEFORE.",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "Trước đây bầu trời xanh ngắt.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "THE SKY WAS SO BLUE BEFORE.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_4",
+          "text": "NOW IT'S ORANGE.",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "Giờ nó cam rồi.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "NOW IT'S ORANGE.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/a431ed32c7dc4a119970313b332bd3b1.wav",
+            "input_text": "今はオレンジ色です。",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.78,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.823855+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "今はオレンジ色です。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "NOW IT'S ORANGE.",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "Giờ nó cam rồi.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "NOW IT'S ORANGE.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_1": {
+      "hidden": false,
+      "duration": 2.96,
+      "prompt": "",
+      "batch_id": "batch_1",
+      "dialogues": [
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_6",
+          "text": "COLORS ARE MYSTERIOUS.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Màu sắc thật bí ẩn.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "COLORS ARE MYSTERIOUS.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/c6e1bab49ffd435795220147af854103.wav",
+            "input_text": "色は神秘的です。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.96,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.824858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "色は神秘的です。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "COLORS ARE MYSTERIOUS.",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "Màu sắc thật bí ẩn.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "COLORS ARE MYSTERIOUS.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "3d2fdc7f4b884ad0893be2abd2322cec_panel_2": {
+      "hidden": false,
+      "duration": 9.6,
+      "prompt": "",
+      "batch_id": "batch_1",
+      "dialogues": [
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_7",
+          "text": "WHAT YOU'RE LOOKING AT IS JUST LIGHT.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Cái bạn đang nhìn chỉ là ánh sáng thôi.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "WHAT YOU'RE LOOKING AT IS JUST LIGHT.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/34758b552b684cfb8be87f80769db919/4138811da56f42de993780a41647aa18.wav",
+            "input_text": "WHAT YOU'RE LOOKING AT IS JUST LIGHT.",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "original",
+            "translation_language": "vi",
+            "duration": 2.4,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "original",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "vi",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:38:49.173722+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "あなたが見ているものはただの光です。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "WHAT YOU'RE LOOKING AT IS JUST LIGHT.",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "Cái bạn đang nhìn chỉ là ánh sáng thôi.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "WHAT YOU'RE LOOKING AT IS JUST LIGHT.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          },
+          "audio_edit": {
+            "volume": 1
+          }
+        },
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_8",
+          "text": "LIGHT REFLECTS OFF THINGS...",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Ánh sáng phản xạ từ vật thể...",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "LIGHT REFLECTS OFF THINGS...",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/34758b552b684cfb8be87f80769db919/b7f206fc0ea84c0a9bc9892c25c2e7bf.wav",
+            "input_text": "LIGHT REFLECTS OFF THINGS...",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "original",
+            "translation_language": "vi",
+            "duration": 2.08,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "original",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "vi",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:38:49.173722+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "光は物に反射します...",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "LIGHT REFLECTS OFF THINGS...",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "Ánh sáng phản xạ từ vật thể...",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "LIGHT REFLECTS OFF THINGS...",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "3d2fdc7f4b884ad0893be2abd2322cec_text_9",
+          "text": "...WHICH WE CAN SEE SINCE WE HAVE THE SENSES TO PERCEIVE IT.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "...mà chúng ta thấy được vì có giác quan cảm nhận nó.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "...WHICH WE CAN SEE SINCE WE HAVE THE SENSES TO PERCEIVE IT.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/34758b552b684cfb8be87f80769db919/0fd272c9cf914d64952391ade34e70a0.wav",
+            "input_text": "...WHICH WE CAN SEE SINCE WE HAVE THE SENSES TO PERCEIVE IT.",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "original",
+            "translation_language": "vi",
+            "duration": 3.72,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "original",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "vi",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:38:49.173722+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "...私たちはそれを知覚する感覚を持っているので、それを見ることができます。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "...WHICH WE CAN SEE SINCE WE HAVE THE SENSES TO PERCEIVE IT.",
+              "created_at": "2026-10-22T15:42:18.328844+00:00"
+            },
+            "vi": {
+              "text": "...mà chúng ta thấy được vì có giác quan cảm nhận nó.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "...WHICH WE CAN SEE SINCE WE HAVE THE SENSES TO PERCEIVE IT.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio",
+      "audio_settings": {
+        "provider": "omnivoice",
+        "text_source": "original",
+        "batch_size": 1,
+        "language": "ja",
+        "translation_language": "vi",
+        "speed": 1,
+        "num_step": 16,
+        "guidance_scale": 2,
+        "position_temperature": 5,
+        "class_temperature": 0,
+        "denoise": true,
+        "preprocess_prompt": true,
+        "postprocess_output": true,
+        "omnivoice": {
+          "model": "checkpoints/omnivoice",
+          "device": "cuda:0",
+          "dtype": "float16",
+          "python_executable": "",
+          "python_path": "vendor/omnivoice",
+          "asr_model": "checkpoints/whisper-small",
+          "asr_device": "cuda:0",
+          "keep_alive_seconds": 60,
+          "timeout_seconds": 1800
+        }
+      }
+    },
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_0": {
+      "hidden": false,
+      "duration": 18.2,
+      "prompt": "",
+      "batch_id": "batch_1",
+      "dialogues": [
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_0",
+          "text": "ISN'T THERE A LINE FROM A TV DRAMA..",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Có câu thoại trong phim truyền hình không...",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "ISN'T THERE A LINE FROM A TV DRAMA..",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/f149329c9d3945b28c1f66e6591dd35f.wav",
+            "input_text": "テレビドラマのセリフありませんか？",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.76,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.824858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "テレビドラマのセリフありませんか？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "ISN'T THERE A LINE FROM A TV DRAMA..",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "Có câu thoại trong phim truyền hình không...",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "ISN'T THERE A LINE FROM A TV DRAMA..",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_1",
+          "text": "... THAT GOES, \"WHEN I MET THE PERSON I LOVE, MY WORLD BEGAN TO SHINE\"?",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "...nói rằng, \"Khi gặp người mình yêu, thế giới của tôi bắt đầu rực rỡ\"?",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "... THAT GOES, \"WHEN I MET THE PERSON I LOVE, MY WORLD BEGAN TO SHINE\"?",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/f11d096fec8e42ed8a6f574f3f7ccfef.wav",
+            "input_text": "…つまり、「愛する人に出会って、私の世界は輝き始めた」ということでしょうか？",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 5.96,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.824858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "…つまり、「愛する人に出会って、私の世界は輝き始めた」ということでしょうか？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "... THAT GOES, \"WHEN I MET THE PERSON I LOVE, MY WORLD BEGAN TO SHINE\"?",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "...nói rằng, \"Khi gặp người mình yêu, thế giới của tôi bắt đầu rực rỡ\"?",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "... THAT GOES, \"WHEN I MET THE PERSON I LOVE, MY WORLD BEGAN TO SHINE\"?",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_3",
+          "text": "THAT'S NOT A METAPHOR. I THINK IT ACTUALLY HAPPENS.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Đó không phải ẩn dụ. Tôi nghĩ nó thực sự xảy ra.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "THAT'S NOT A METAPHOR. I THINK IT ACTUALLY HAPPENS.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/69c11d49e9464f2bab6cb7acec4a31b8.wav",
+            "input_text": "それは比喩ではありません。それは実際に起こっていると思います。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 5.16,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.824858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "それは比喩ではありません。それは実際に起こっていると思います。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "THAT'S NOT A METAPHOR. I THINK IT ACTUALLY HAPPENS.",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "Đó không phải ẩn dụ. Tôi nghĩ nó thực sự xảy ra.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "THAT'S NOT A METAPHOR. I THINK IT ACTUALLY HAPPENS.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_5",
+          "text": "HUH?",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "À?",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "HUH?",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/4df8ca24f0794c33903b8a035abe5430.wav",
+            "input_text": "え？",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.08,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.824858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "え？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "HUH?",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "À?",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "HUH?",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_6",
+          "text": "A LINE?",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Câu thoại?",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "A LINE?",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/d18de629e81d476fbb3257d69d23d033.wav",
+            "input_text": "ライン？",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.44,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.825858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "ライン？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "A LINE?",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "Câu thoại?",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "A LINE?",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_1": {
+      "hidden": false,
+      "duration": 2.88,
+      "prompt": "",
+      "batch_id": "batch_2",
+      "dialogues": [
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_7",
+          "text": "WHEN YOU'RE IN LOVE...",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Khi đang yêu...",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "WHEN YOU'RE IN LOVE...",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b2f01aec53ee4d69b1066a515ce540d0/c69cf964e22841b8b7a28f2bae4646f6.wav",
+            "input_text": "WHEN YOU'RE IN LOVE...",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "original",
+            "translation_language": "vi",
+            "duration": 1.88,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "original",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "vi",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:39:08.448672+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "恋をしているとき...",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "WHEN YOU'RE IN LOVE...",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "Khi đang yêu...",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "WHEN YOU'RE IN LOVE...",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio",
+      "audio_settings": {
+        "provider": "omnivoice",
+        "text_source": "original",
+        "batch_size": 1,
+        "language": "ja",
+        "translation_language": "vi",
+        "speed": 1,
+        "num_step": 16,
+        "guidance_scale": 2,
+        "position_temperature": 5,
+        "class_temperature": 0,
+        "denoise": true,
+        "preprocess_prompt": true,
+        "postprocess_output": true,
+        "omnivoice": {
+          "model": "checkpoints/omnivoice",
+          "device": "cuda:0",
+          "dtype": "float16",
+          "python_executable": "",
+          "python_path": "vendor/omnivoice",
+          "asr_model": "checkpoints/whisper-small",
+          "asr_device": "cuda:0",
+          "keep_alive_seconds": 60,
+          "timeout_seconds": 1800
+        }
+      }
+    },
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_2": {
+      "hidden": false,
+      "duration": 4.79,
+      "prompt": "",
+      "batch_id": "batch_2",
+      "dialogues": [
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_8",
+          "text": "YOUR SENSE OF THE WORLD...",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Cảm giác về thế giới...",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "YOUR SENSE OF THE WORLD...",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/c44cd069edad43a791e550c9c4233a8f/f9753a70b21e4a71bb2bac3309dc9abf.wav",
+            "input_text": "YOUR SENSE OF THE WORLD...",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "original",
+            "translation_language": "vi",
+            "duration": 2,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "original",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "vi",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:39:36.511345+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "あなたの世界観...",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "YOUR SENSE OF THE WORLD...",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "Cảm giác về thế giới...",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "YOUR SENSE OF THE WORLD...",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        },
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_9",
+          "text": "...SHARPENS.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "...trở nên nhạy bén hơn.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "...SHARPENS.",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/c44cd069edad43a791e550c9c4233a8f/ca903d951c724fb393bcc734aae936ee.wav",
+            "input_text": "...SHARPENS.",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "original",
+            "translation_language": "vi",
+            "duration": 1.59,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "original",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "vi",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:39:36.511345+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "...鋭い。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "...SHARPENS.",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "...trở nên nhạy bén hơn.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "...SHARPENS.",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio",
+      "audio_settings": {
+        "provider": "omnivoice",
+        "text_source": "original",
+        "batch_size": 1,
+        "language": "ja",
+        "translation_language": "vi",
+        "speed": 1,
+        "num_step": 16,
+        "guidance_scale": 2,
+        "position_temperature": 5,
+        "class_temperature": 0,
+        "denoise": true,
+        "preprocess_prompt": true,
+        "postprocess_output": true,
+        "omnivoice": {
+          "model": "checkpoints/omnivoice",
+          "device": "cuda:0",
+          "dtype": "float16",
+          "python_executable": "",
+          "python_path": "vendor/omnivoice",
+          "asr_model": "checkpoints/whisper-small",
+          "asr_device": "cuda:0",
+          "keep_alive_seconds": 60,
+          "timeout_seconds": 1800
+        }
+      }
+    },
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_3": {
+      "hidden": false,
+      "duration": 3.04,
+      "prompt": "",
+      "batch_id": "batch_2",
+      "dialogues": [
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_10",
+          "text": "IT BECOMES SO SPARKLY.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "NÓ TRỞ NÊN LÁP LÁNH RỒI.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "IT BECOMES SO SPARKLY.",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/f71926c188954c2cbe000b1c91c09f1a.wav",
+            "input_text": "とてもキラキラします。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.04,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.825858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "とてもキラキラします。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "IT BECOMES SO SPARKLY.",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "NÓ TRỞ NÊN LÁP LÁNH RỒI.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "IT BECOMES SO SPARKLY.",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_4": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_3",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "dec8c9233ddf42438fcfbc53ef0e24d3_panel_5": {
+      "hidden": false,
+      "duration": 9.06,
+      "prompt": "",
+      "batch_id": "batch_3",
+      "dialogues": [
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_11",
+          "text": "AS USUAL",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "NHƯ BÌNH THƯỜNG",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "AS USUAL",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/21f5772439c443c996ab943b1f98165d.wav",
+            "input_text": "いつものように",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.37,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.825858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "いつものように",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "AS USUAL",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "NHƯ BÌNH THƯỜNG",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "AS USUAL",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "dec8c9233ddf42438fcfbc53ef0e24d3_text_12",
+          "text": "...I DONT 100 PERCENT UNDERSTAND WHAT SHE'S SAYING, BUT I'M GLAD IT'S SPARKLY.",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "...TÔI KHÔNG HIỂU 100% CÔ ẤY NÓI GÌ, NHƯNG TÔI VUI VÌ NÓ LÁP LÁNH.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "...I DONT 100 PERCENT UNDERSTAND WHAT SHE'S SAYING, BUT I'M GLAD IT'S SPARKLY.",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/db8a8fb1043248b783126245d872f76f.wav",
+            "input_text": "...彼女が何を言っているのか100パーセント理解できませんが、キラキラしていてうれしいです。",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 6.49,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.825858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "...彼女が何を言っているのか100パーセント理解できませんが、キラキラしていてうれしいです。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "...I DONT 100 PERCENT UNDERSTAND WHAT SHE'S SAYING, BUT I'M GLAD IT'S SPARKLY.",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "...TÔI KHÔNG HIỂU 100% CÔ ẤY NÓI GÌ, NHƯNG TÔI VUI VÌ NÓ LÁP LÁNH.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "...I DONT 100 PERCENT UNDERSTAND WHAT SHE'S SAYING, BUT I'M GLAD IT'S SPARKLY.",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "f1b1a2520a454a3d998f7608f5074827_panel_0": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_3",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "f1b1a2520a454a3d998f7608f5074827_panel_1": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_4",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "f1b1a2520a454a3d998f7608f5074827_panel_2": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_4",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "f1b1a2520a454a3d998f7608f5074827_panel_3": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_4",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "f1b1a2520a454a3d998f7608f5074827_panel_4": {
+      "hidden": false,
+      "duration": 5.86,
+      "prompt": "",
+      "batch_id": "batch_5",
+      "dialogues": [
+        {
+          "id": "f1b1a2520a454a3d998f7608f5074827_text_0",
+          "text": "LOOK OVER THERE!",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "NHÌN KIA KIA!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "LOOK OVER THERE!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/76f7ebc6c01e4db38c00589023276546.wav",
+            "input_text": "あそこを見てください！",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.08,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:51:12.647034+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "あそこを見てください！",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "LOOK OVER THERE!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "NHÌN KIA KIA!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "LOOK OVER THERE!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "f1b1a2520a454a3d998f7608f5074827_text_2",
+          "text": "GOTCHA!",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "BẮT ĐƯỢC RỒI!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "GOTCHA!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/4962186d07de42839aff0a4a41982683.wav",
+            "input_text": "わかった！",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.56,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:51:12.648035+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "わかった！",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "GOTCHA!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "BẮT ĐƯỢC RỒI!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "GOTCHA!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "f1b1a2520a454a3d998f7608f5074827_text_3",
+          "text": "HUH?",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "À?",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "HUH?",
+            "created_at": "2026-10-22T18:31:03.498294+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/9331ba5ffd114a07addacf18041b4076.wav",
+            "input_text": "え？",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 0.82,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:51:12.648035+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "え？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "HUH?",
+              "created_at": "2026-10-22T15:42:18.329846+00:00"
+            },
+            "vi": {
+              "text": "À?",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "HUH?",
+              "created_at": "2026-10-22T18:31:03.498294+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio",
+      "audio_settings": {
+        "provider": "omnivoice",
+        "text_source": "translation",
+        "batch_size": 1,
+        "language": "ja",
+        "translation_language": "ja",
+        "speed": 1,
+        "num_step": 16,
+        "guidance_scale": 2,
+        "position_temperature": 5,
+        "class_temperature": 0,
+        "denoise": true,
+        "preprocess_prompt": true,
+        "postprocess_output": true,
+        "omnivoice": {
+          "model": "checkpoints/omnivoice",
+          "device": "cuda:0",
+          "dtype": "float16",
+          "python_executable": "",
+          "python_path": "vendor/omnivoice",
+          "asr_model": "checkpoints/whisper-small",
+          "asr_device": "cuda:0",
+          "keep_alive_seconds": 60,
+          "timeout_seconds": 1800
+        }
+      }
+    },
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_0": {
+      "hidden": false,
+      "duration": 8.08,
+      "prompt": "",
+      "batch_id": "batch_5",
+      "dialogues": [
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_0",
+          "text": "WHERE'D THAT COME FROM?!",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "NÓ TỪ ĐÂU RA?!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "WHERE'D THAT COME FROM?!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/a0d6297aa248454bb5d45c1b8ac9bb22.wav",
+            "input_text": "それはどこから来たのですか？",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.32,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.825858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "それはどこから来たのですか？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "WHERE'D THAT COME FROM?!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "NÓ TỪ ĐÂU RA?!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "WHERE'D THAT COME FROM?!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_1",
+          "text": "LET'S PLAY \"KNOCK DOWN THE STICK\" TOO!",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "CHÚNG TA CHƠI \"ĐÁP CỌC\" CŨNG THỬ!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "LET'S PLAY \"KNOCK DOWN THE STICK\" TOO!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/da0def25d23e4f378c16f1bbcd11140b.wav",
+            "input_text": "あなたも「スティックをたたきなさい」をプレイしてみましょう！",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 4.56,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.825858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "あなたも「スティックをたたきなさい」をプレイしてみましょう！",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "LET'S PLAY \"KNOCK DOWN THE STICK\" TOO!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "CHÚNG TA CHƠI \"ĐÁP CỌC\" CŨNG THỬ!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "LET'S PLAY \"KNOCK DOWN THE STICK\" TOO!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_1": {
+      "hidden": false,
+      "duration": 5.44,
+      "prompt": "",
+      "batch_id": "batch_5",
+      "dialogues": [
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_3",
+          "text": "NEXT IS NOUGHTS AND CROSSES!",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "TIẾP LÀ CARO!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "NEXT IS NOUGHTS AND CROSSES!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/eb9ff72d4ab14073871960183a3818d5.wav",
+            "input_text": "次はノーツアンドクロスです！",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.16,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.825858+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "次はノーツアンドクロスです！",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "NEXT IS NOUGHTS AND CROSSES!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "TIẾP LÀ CARO!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "NEXT IS NOUGHTS AND CROSSES!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_4",
+          "text": "WHAT'D YOU CALL IT?!",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "BẠN GỌI LÀ GÌ?!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "WHAT'D YOU CALL IT?!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/91b787d2a81c44f4a0f059b807d03853.wav",
+            "input_text": "何と呼んでいましたか?!",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.08,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "何と呼んでいましたか?!",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "WHAT'D YOU CALL IT?!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "BẠN GỌI LÀ GÌ?!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "WHAT'D YOU CALL IT?!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_2": {
+      "hidden": false,
+      "duration": 9.02,
+      "prompt": "",
+      "batch_id": "batch_6",
+      "dialogues": [
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_5",
+          "text": "SHELL- HUNTING SHOW- DOWN!",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "CUỘC ĐẤU TRUY TÌM VỎ SỞ!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "SHELL- HUNTING SHOW- DOWN!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/10f02af5bc9e4b0ab120896dff5cba42/9f8b0eca41fb46cb9b00b6bad74f511f.wav",
+            "input_text": "貝殻狩り対決！",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.88,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:43:02.073223+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "貝殻狩り対決！",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "SHELL- HUNTING SHOW- DOWN!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "CUỘC ĐẤU TRUY TÌM VỎ SỞ!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "SHELL- HUNTING SHOW- DOWN!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_6",
+          "text": "IS IT BY QUANTITY?",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "THEO SỐ LƯỢNG À?",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "IS IT BY QUANTITY?",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/10f02af5bc9e4b0ab120896dff5cba42/a15c173274eb485a88889e861f62545a.wav",
+            "input_text": "量によるのでしょうか？",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.95,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:43:02.073223+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "量によるのでしょうか？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "IS IT BY QUANTITY?",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "THEO SỐ LƯỢNG À?",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "IS IT BY QUANTITY?",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_8",
+          "text": "OR BEAUTY?",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "HAY THEO VẺ ĐẸP?",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "OR BEAUTY?",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/10f02af5bc9e4b0ab120896dff5cba42/f5dfa7fc6ac9436f9d54984c526f9912.wav",
+            "input_text": "それとも美しさ？",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.79,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:43:02.074224+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "それとも美しさ？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "OR BEAUTY?",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "HAY THEO VẺ ĐẸP?",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "OR BEAUTY?",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "eb2503886b3548f0bb7bbd1745c4c8d1_text_9",
+          "text": "HMM. BEAUTY!",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Hừm. VẺ ĐẸP!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "HMM. BEAUTY!",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/10f02af5bc9e4b0ab120896dff5cba42/9051c6d4f7744f6c9ea65d6fc3a6fba7.wav",
+            "input_text": "うーん。美しさ！",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.8,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 16,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:43:02.074224+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "うーん。美しさ！",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "HMM. BEAUTY!",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "Hừm. VẺ ĐẸP!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "HMM. BEAUTY!",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio",
+      "audio_settings": {
+        "provider": "omnivoice",
+        "text_source": "translation",
+        "batch_size": 1,
+        "language": "ja",
+        "translation_language": "ja",
+        "speed": 1,
+        "num_step": 16,
+        "guidance_scale": 2,
+        "position_temperature": 5,
+        "class_temperature": 0,
+        "denoise": true,
+        "preprocess_prompt": true,
+        "postprocess_output": true,
+        "omnivoice": {
+          "model": "checkpoints/omnivoice",
+          "device": "cuda:0",
+          "dtype": "float16",
+          "python_executable": "",
+          "python_path": "vendor/omnivoice",
+          "asr_model": "checkpoints/whisper-small",
+          "asr_device": "cuda:0",
+          "keep_alive_seconds": 60,
+          "timeout_seconds": 1800
+        }
+      }
+    },
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_3": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_6",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "eb2503886b3548f0bb7bbd1745c4c8d1_panel_4": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_6",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "960eacfb711d43349b1b1b33cf615613_panel_0": {
+      "hidden": false,
+      "duration": 7.09,
+      "prompt": "",
+      "batch_id": "batch_7",
+      "dialogues": [
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_0",
+          "text": "REMEMBER HOW THE LOSER..",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "NHỚ KẺ THUA CUỘC..",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "REMEMBER HOW THE LOSER..",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/905dc2b7ec9b482cbdffb8024aa0ef20.wav",
+            "input_text": "敗者のやり方を思い出してください。",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.75,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "敗者のやり方を思い出してください。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "REMEMBER HOW THE LOSER..",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "NHỚ KẺ THUA CUỘC..",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "REMEMBER HOW THE LOSER..",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          },
+          "audio_edit": {
+            "volume": 0.6
+          }
+        },
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_1",
+          "text": "...HAS TO DO WHAT THE WINNER SAYS?",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "...PHẢI LÀM THEO YÊU CẦU CỦA KẺ THẮNG?",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "...HAS TO DO WHAT THE WINNER SAYS?",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/9954c45e4c13404795a20137ecb7767b.wav",
+            "input_text": "...勝者の言うことを聞かなければなりませんか？",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 3.14,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "...勝者の言うことを聞かなければなりませんか？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "...HAS TO DO WHAT THE WINNER SAYS?",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "...PHẢI LÀM THEO YÊU CẦU CỦA KẺ THẮNG?",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "...HAS TO DO WHAT THE WINNER SAYS?",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "960eacfb711d43349b1b1b33cf615613_panel_1": {
+      "hidden": false,
+      "duration": 14.84,
+      "prompt": "",
+      "batch_id": "batch_7",
+      "dialogues": [
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_2",
+          "text": "1. Beach Badminton 2. Made You Look 3. Knock Down the Stick 4. Noughts and Crosses 5. Shell Hunting",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "1. Cầu lông bãi biển 2. Lừa Bạn Nhìn 3. Đập Cọc 4. Caro 5. Tìm Vỏ Sở",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "1. Beach Badminton 2. Made You Look 3. Knock Down the Stick 4. Noughts and Crosses 5. Shell Hunting",
+            "created_at": "2026-10-22T18:31:47.974064+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/32d93fe7f0b445638d4cdf2d495b76e9.wav",
+            "input_text": "1. ビーチバドミントン 2. メイド・ユー・ルック 3. ノック・ダウン・ザ・スティック 4. ノーツ・アンド・クロス 5. 貝殻狩り",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 8.8,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "1. ビーチバドミントン 2. メイド・ユー・ルック 3. ノック・ダウン・ザ・スティック 4. ノーツ・アンド・クロス 5. 貝殻狩り",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "1. Beach Badminton 2. Made You Look 3. Knock Down the Stick 4. Noughts and Crosses 5. Shell Hunting",
+              "created_at": "2026-10-22T15:42:21.140788+00:00"
+            },
+            "vi": {
+              "text": "1. Cầu lông bãi biển 2. Lừa Bạn Nhìn 3. Đập Cọc 4. Caro 5. Tìm Vỏ Sở",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "1. Beach Badminton 2. Made You Look 3. Knock Down the Stick 4. Noughts and Crosses 5. Shell Hunting",
+              "created_at": "2026-10-22T18:31:47.974064+00:00"
+            }
+          }
+        },
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_3",
+          "text": "I'VE RACKED UP FIVE WINS.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "TAO THẮNG HẾT NĂM TRẬN RỒI.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "I'VE RACKED UP FIVE WINS.",
+            "created_at": "2026-10-22T18:32:34.582256+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/d9a4376195cb4af4bc23b0029e809de0.wav",
+            "input_text": "5勝を積み上げました。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.12,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "5勝を積み上げました。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "I'VE RACKED UP FIVE WINS.",
+              "created_at": "2026-10-22T15:42:25.351762+00:00"
+            },
+            "vi": {
+              "text": "TAO THẮNG HẾT NĂM TRẬN RỒI.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "I'VE RACKED UP FIVE WINS.",
+              "created_at": "2026-10-22T18:32:34.582256+00:00"
+            }
+          }
+        },
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_4",
+          "text": "ALL THOSE COUNTED?!",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "TẤT CẢ ĐỀU ĐƯỢC TÍNH À?!",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "ALL THOSE COUNTED?!",
+            "created_at": "2026-10-22T18:32:34.582256+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/c32cab7bffed49e48e90322e81f3c241.wav",
+            "input_text": "それらはすべてカウントされますか？",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.52,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "それらはすべてカウントされますか？",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "ALL THOSE COUNTED?!",
+              "created_at": "2026-10-22T15:42:25.351762+00:00"
+            },
+            "vi": {
+              "text": "TẤT CẢ ĐỀU ĐƯỢC TÍNH À?!",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "ALL THOSE COUNTED?!",
+              "created_at": "2026-10-22T18:32:34.582256+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "960eacfb711d43349b1b1b33cf615613_panel_2": {
+      "hidden": false,
+      "duration": 5.37,
+      "prompt": "",
+      "batch_id": "batch_7",
+      "dialogues": [
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_5",
+          "text": "NOW, NOW.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "NÀ NÀ.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "NOW, NOW.",
+            "created_at": "2026-10-22T18:32:34.582256+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/63177f9117ad4146aa79deb276a54a85.wav",
+            "input_text": "今、今。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.33,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "今、今。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "NOW, NOW.",
+              "created_at": "2026-10-22T15:42:25.351762+00:00"
+            },
+            "vi": {
+              "text": "NÀ NÀ.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "NOW, NOW.",
+              "created_at": "2026-10-22T18:32:34.582256+00:00"
+            }
+          }
+        },
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_6",
+          "text": "I HAVE A BIG FAVOR TO ASK OF YOU, YOU SEE.",
+          "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+          "translation": {
+            "text": "Mình có một lời nhờ lớn muốn nhờ cậu, nghe đây nha.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "I HAVE A BIG FAVOR TO ASK OF YOU, YOU SEE.",
+            "created_at": "2026-10-22T18:45:48.786319+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/723da4abe04f4560884da87d8f5457e0.wav",
+            "input_text": "あなたに大きなお願いがあるのです。",
+            "speaker_id": "dfa88b7302144346acb4eb1cc193be39",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.84,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "あなたに大きなお願いがあるのです。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "I HAVE A BIG FAVOR TO ASK OF YOU, YOU SEE.",
+              "created_at": "2026-10-22T15:42:25.351762+00:00"
+            },
+            "vi": {
+              "text": "Mình có một lời nhờ lớn muốn nhờ cậu, nghe đây nha.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "I HAVE A BIG FAVOR TO ASK OF YOU, YOU SEE.",
+              "created_at": "2026-10-22T18:45:48.786319+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "960eacfb711d43349b1b1b33cf615613_panel_3": {
+      "hidden": false,
+      "duration": 3.56,
+      "prompt": "",
+      "batch_id": "batch_8",
+      "dialogues": [
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_7",
+          "text": "ONE WIN ALONE WOULDN'T BE ENOUGH.",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "CHỈ THẮNG MỘT TRẬN THÔI KHÔNG ĐỦ ĐÂU.",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "ONE WIN ALONE WOULDN'T BE ENOUGH.",
+            "created_at": "2026-10-22T18:32:34.582256+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/899a1fbbf2304ea68cfb1bb355b6a75a.wav",
+            "input_text": "1勝だけでは十分ではありません。",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 2.56,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.826846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "1勝だけでは十分ではありません。",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "ONE WIN ALONE WOULDN'T BE ENOUGH.",
+              "created_at": "2026-10-22T15:42:25.351762+00:00"
+            },
+            "vi": {
+              "text": "CHỈ THẮNG MỘT TRẬN THÔI KHÔNG ĐỦ ĐÂU.",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "ONE WIN ALONE WOULDN'T BE ENOUGH.",
+              "created_at": "2026-10-22T18:32:34.582256+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    },
+    "960eacfb711d43349b1b1b33cf615613_panel_4": {
+      "hidden": false,
+      "duration": 1.0,
+      "prompt": "",
+      "batch_id": "batch_8",
+      "dialogues": [],
+      "duration_source": "audio"
+    },
+    "960eacfb711d43349b1b1b33cf615613_panel_5": {
+      "hidden": false,
+      "duration": 2.24,
+      "prompt": "",
+      "batch_id": "batch_8",
+      "dialogues": [
+        {
+          "id": "960eacfb711d43349b1b1b33cf615613_text_8",
+          "text": "SSSSHH",
+          "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+          "translation": {
+            "text": "SSSSHH",
+            "source": "en",
+            "target": "vi",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "provider": "openai_compatible",
+            "input_text": "SSSSHH",
+            "created_at": "2026-10-22T18:32:34.582256+00:00"
+          },
+          "audio": {
+            "path": "output/audio/b0d2978b21af4da794135af5f337a212/694bfce834c84adbb6881c3b4257996f.wav",
+            "input_text": "SSSSH",
+            "speaker_id": "54804134a0ec4a5eb2f997cdecb0d115",
+            "text_source": "translation",
+            "translation_language": "ja",
+            "duration": 1.24,
+            "sample_rate": 24000,
+            "settings": {
+              "provider": "omnivoice",
+              "text_source": "translation",
+              "batch_size": 1,
+              "language": "ja",
+              "translation_language": "ja",
+              "speed": 1,
+              "num_step": 10,
+              "guidance_scale": 2,
+              "position_temperature": 5,
+              "class_temperature": 0,
+              "denoise": true,
+              "preprocess_prompt": true,
+              "postprocess_output": true,
+              "omnivoice": {
+                "model": "checkpoints/omnivoice",
+                "device": "cuda:0",
+                "dtype": "float16",
+                "python_executable": "",
+                "python_path": "vendor/omnivoice",
+                "asr_model": "checkpoints/whisper-small",
+                "asr_device": "cuda:0",
+                "keep_alive_seconds": 60,
+                "timeout_seconds": 1800
+              }
+            },
+            "created_at": "2026-10-22T18:50:29.827846+00:00"
+          },
+          "translations": {
+            "ja": {
+              "text": "SSSSH",
+              "source": "en",
+              "target": "ja",
+              "provider": "googletrans",
+              "input_text": "SSSSHH",
+              "created_at": "2026-10-22T15:42:25.351762+00:00"
+            },
+            "vi": {
+              "text": "SSSSHH",
+              "source": "en",
+              "target": "vi",
+              "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+              "provider": "openai_compatible",
+              "input_text": "SSSSHH",
+              "created_at": "2026-10-22T18:32:34.582256+00:00"
+            }
+          }
+        }
+      ],
+      "duration_source": "audio"
+    }
+  },
+  "saved_at": "2026-10-22T18:51:13.194350+00:00"
+}

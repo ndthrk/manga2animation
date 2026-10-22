@@ -9,7 +9,7 @@ build/
 tests/
 dist/
 .env
-output/
+/output/
 data/*
 checkpoints/*
 lab/data/
@@ -91,6 +91,16 @@ config.local.yaml
 *.gif
 *.bmp
 *.tiff
-!docs/images/*.png
-!docs/images/*.jpg
-!docs/images/*.webp
+
+# Tài nguyên minh họa và bộ dữ liệu mẫu được chọn để công khai.
+!examples/docs/*.png
+!examples/docs/*.jpg
+!examples/docs/*.webp
+!project_example/**/*.png
+!project_example/**/*.jpg
+!project_example/**/*.jpeg
+!project_example/**/*.webp
+!project_example/**/*.wav
+!project_example/**/*.flac
+!project_example/**/*.mp3
+!project_example/**/*.mp4

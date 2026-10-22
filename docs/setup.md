@@ -61,7 +61,7 @@ Muốn clone/sinh giọng local, tải thêm OmniVoice, codec và Whisper:
 python scripts/download_models.py --audio
 ```
 
-Indra/Magi v3 chỉ cần khi chọn engine tương ứng; xem bảng model trong README.
+Indra/Magi v3 chỉ cần khi chọn engine tương ứng; đặt đường dẫn model trong `configs/pipeline.yaml`.
 PaddleOCR có thể tải model ngôn ngữ trong lần dùng đầu; dùng thư mục local trong YAML nếu đã tải sẵn.
 Ứng dụng không tự tải lại checkpoint Magi/Real-ESRGAN mỗi lần Extract.
 

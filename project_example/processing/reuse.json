@@ -1,0 +1,15 @@
+{
+  "plan": {
+    "mode": "full",
+    "base_run_id": null,
+    "reused_page_ids": [],
+    "processing_signature": "7c93d595f960d936bd28d014bd5113a2d26927b1d4f693ccce603cdc54e27785",
+    "total": 5,
+    "reasons": {},
+    "reused_pages": 0,
+    "processing_pages": 5,
+    "reason": "forced"
+  },
+  "pages": [],
+  "edits": null
+}

@@ -1,0 +1,54 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,32,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,0,0,0,0,100,100,0,0,1,2,1,2,35,35,35,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:03.48,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Trông như mặt trời đã lặn rồi.
+Dialogue: 0,0:00:03.68,0:00:08.63,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}Trận cầu lông bãi biển của chúng ta gay gắt quá,
+Dialogue: 0,0:00:08.63,0:00:10.88,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}gần như không để ý.
+Dialogue: 0,0:00:11.92,0:00:14.36,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Trước đây bầu trời xanh ngắt.
+Dialogue: 0,0:00:14.56,0:00:16.34,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}Giờ nó cam rồi.
+Dialogue: 0,0:00:17.42,0:00:19.38,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Màu sắc thật bí ẩn.
+Dialogue: 0,0:00:20.42,0:00:22.82,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Cái bạn đang nhìn chỉ là ánh sáng thôi.
+Dialogue: 0,0:00:23.02,0:00:25.10,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Ánh sáng phản xạ từ vật thể...
+Dialogue: 0,0:00:25.30,0:00:29.02,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}...mà chúng ta thấy được vì có giác quan cảm nhận nó.
+Dialogue: 0,0:00:30.08,0:00:32.84,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Có câu thoại trong phim truyền hình không...
+Dialogue: 0,0:00:33.04,0:00:35.82,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}...nói rằng, "Khi gặp người mình yêu,
+Dialogue: 0,0:00:35.82,0:00:39.00,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}thế giới của tôi bắt đầu rực rỡ"?
+Dialogue: 0,0:00:39.20,0:00:44.36,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Đó không phải ẩn dụ. Tôi nghĩ nó thực sự xảy ra.
+Dialogue: 0,0:00:44.56,0:00:45.64,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}À?
+Dialogue: 0,0:00:45.84,0:00:47.28,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Câu thoại?
+Dialogue: 0,0:00:48.33,0:00:50.21,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Khi đang yêu...
+Dialogue: 0,0:00:51.25,0:00:53.25,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Cảm giác về thế giới...
+Dialogue: 0,0:00:53.45,0:00:55.04,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}...trở nên nhạy bén hơn.
+Dialogue: 0,0:00:56.08,0:00:58.12,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}NÓ TRỞ NÊN LÁP LÁNH RỒI.
+Dialogue: 0,0:01:00.17,0:01:01.54,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}NHƯ BÌNH THƯỜNG
+Dialogue: 0,0:01:01.74,0:01:05.20,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}...TÔI KHÔNG HIỂU 100% CÔ ẤY NÓI GÌ,
+Dialogue: 0,0:01:05.20,0:01:08.23,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}NHƯNG TÔI VUI VÌ NÓ LÁP LÁNH.
+Dialogue: 0,0:01:13.25,0:01:15.33,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}NHÌN KIA KIA!
+Dialogue: 0,0:01:15.53,0:01:17.09,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}BẮT ĐƯỢC RỒI!
+Dialogue: 0,0:01:17.29,0:01:18.11,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}À?
+Dialogue: 0,0:01:19.17,0:01:21.49,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}NÓ TỪ ĐÂU RA?!
+Dialogue: 0,0:01:21.69,0:01:26.25,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}CHÚNG TA CHƠI "ĐÁP CỌC" CŨNG THỬ!
+Dialogue: 0,0:01:27.25,0:01:29.41,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}TIẾP LÀ CARO!
+Dialogue: 0,0:01:29.61,0:01:31.69,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}BẠN GỌI LÀ GÌ?!
+Dialogue: 0,0:01:32.75,0:01:34.63,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}CUỘC ĐẤU TRUY TÌM VỎ SỞ!
+Dialogue: 0,0:01:34.83,0:01:36.78,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}THEO SỐ LƯỢNG À?
+Dialogue: 0,0:01:36.98,0:01:38.77,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}HAY THEO VẺ ĐẸP?
+Dialogue: 0,0:01:38.97,0:01:40.77,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Hừm. VẺ ĐẸP!
+Dialogue: 0,0:01:43.83,0:01:46.58,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}NHỚ KẺ THUA CUỘC..
+Dialogue: 0,0:01:46.78,0:01:49.92,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}...PHẢI LÀM THEO YÊU CẦU CỦA KẺ THẮNG?
+Dialogue: 0,0:01:51.00,0:01:55.89,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}1. Cầu lông bãi biển 2. Lừa Bạn Nhìn 3.
+Dialogue: 0,0:01:55.89,0:01:59.80,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Đập Cọc 4. Caro 5. Tìm Vỏ Sở
+Dialogue: 0,0:02:00.00,0:02:02.12,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}TAO THẮNG HẾT NĂM TRẬN RỒI.
+Dialogue: 0,0:02:02.32,0:02:04.84,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}TẤT CẢ ĐỀU ĐƯỢC TÍNH À?!
+Dialogue: 0,0:02:05.92,0:02:07.25,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}NÀ NÀ.
+Dialogue: 0,0:02:07.45,0:02:10.29,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hc780f9&}Mình có một lời nhờ lớn muốn nhờ cậu, nghe đây nha.
+Dialogue: 0,0:02:11.33,0:02:13.89,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}CHỈ THẮNG MỘT TRẬN THÔI KHÔNG ĐỦ ĐÂU.
+Dialogue: 0,0:02:15.92,0:02:17.16,Default,,35,35,35,,{\an2\fnArial\fs32\c&Hffa166&}SSSSHH
